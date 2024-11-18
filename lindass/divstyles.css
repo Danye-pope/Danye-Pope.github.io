@@ -1,0 +1,455 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box ;
+}
+
+nav {
+	background:#FAB011;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	text-align: center;
+
+}	
+
+.logo img {
+	height: 50px;
+}
+
+.nav-links {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.nav-links a {
+	color: black;
+	text-decoration: none;
+	font-size: 40 px;
+	text-transform: uppercase;
+
+}
+.nav-links a:hover{
+	 color: white;
+}
+
+.background-image-container {
+	background-image:url(linda1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #FAB011;
+	text-align: center;
+	position: relative;
+	margin-bottom: 0px;
+
+}
+
+.background-image-container h1 {
+	position: relative;
+	z-index: 2;
+	font-size: 400px;
+	margin: 0;
+
+}
+.my-background {
+    background-color: #623A23;
+}
+
+.my-h1-style {
+    font-size: 90px;          
+    font-weight: bold;
+    font-family: balloon;    
+    text-shadow:     
+    -2px -2px 0 #FFE400, /* Top-left shadow */
+    2px -2px 0 #FFE400,  /* Top-right shadow */
+    -2px 2px 0 #FFE400,  /* Bottom-left shadow */
+    2px 2px 0 #FFE400;   /* Bottom-right shadow */;    
+    color: #FAB011;          
+    text-align: center;       
+    margin: 0px 0;          
+}
+
+.my-h1-style0 {
+    font-size: 90px;          
+    font-weight: bold;
+    font-family: balloon;     
+    color: #FAB011;          
+    text-align: left;       
+    margin: 0px 0;   
+    text-shadow:  
+     -2px -2px 0 #FFE400, /* Top-left shadow */
+    2px -2px 0 #FFE400,  /* Top-right shadow */
+    -2px 2px 0 #FFE400,  /* Bottom-left shadow */
+    2px 2px 0 #FFE400;     
+}
+.my-h1-stylea {
+    font-size: 200px;          
+    font-weight: bold;
+    font-family: balloon;     
+    color: #FAB011;          
+    text-align: center;       
+    margin: 0px 0;   
+    text-shadow:  
+     -2px -2px 0 #FFE400, /* Top-left shadow */
+    2px -2px 0 #FFE400,  /* Top-right shadow */
+    -2px 2px 0 #FFE400,  /* Bottom-left shadow */
+    2px 2px 0 #FFE400;   
+       margin: 0 auto; 
+
+}
+.my-h2-style {
+	    font-size: 60px;          
+    font-weight: bold;
+    font-family: avenir, sans-serif;    
+    color: #black;          
+    text-align: left;       
+    margin: 0px 0;    
+}
+
+.my-h3-style {
+	    font-size: 35px;          
+    font-weight: bold;
+    font-family: avenir, sans-serif;    
+    color: #black;          
+    text-align: left;       
+    margin: 0px 0;    
+}
+.my-h3-stylea {
+	    font-size: 65px;          
+    font-weight: bold;
+    font-family: avenir, sans-serif;    
+    color: #black;          
+    text-align: left;       
+    margin: 0px 0;    
+}
+.my-h3-stylem {
+	    font-size: 35px;          
+    font-weight: bold;
+    font-family: avenir, sans-serif;    
+    color: #black;          
+    text-align: center;       
+    margin:200px 200;    
+}
+.my-h4-style {
+	    font-size: 35px;          
+    font-weight: bold;
+    font-family: avenir, sans-serif;    
+    color: #black;          
+    text-align: center;       
+    margin:20px 0;    
+}
+.body {
+	    font-size: 35px;          
+    font-weight: roman;
+    font-family: avenir, sans-serif;    
+    color: #black;          
+    text-align: center;       
+    margin:20px 0;    
+}
+.hours-of-o {
+	background-color: white;
+}
+.map{
+  flex: 1; /* Take up 50% of the container width */
+}
+
+.map iframe {
+  width: 100%; /* Make the map take the full width of its container */
+  height: 200px; /* Set the height of the map */
+  border: 0; /* Remove iframe border */
+}
+.gallery-container {
+    text-align: center;
+    width: 80%;
+    padding-top: 20px;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+
+}
+
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+/* Hover effect on images */
+.gallery-item img:hover {
+    transform: scale(1.25);
+
+}
+
+
+.footer {
+  background-color: #FAB011;       /* Dark background color */
+  color: #000000;                  /* Light text color for contrast */
+  padding: 0px;                /* Space inside the footer */
+  text-align: center;           /* Center-align text */
+  position: fixed;              /* Fix footer to bottom */
+  bottom: 0;                    /* Position footer at the very bottom */
+  width: 100%;                  /* Full width */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);  /* Slight shadow for style */
+}
+
+.footer-content {
+	font-family: avenir, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links a:hover {
+  color: #2a8ded;
+}
+.footer-image {
+  max-width: 200px; /* Adjust the width as needed */
+  height: auto;
+  margin-bottom: 10px; /* Space between the image and text */
+  margin-right: 20px;
+}
+
+ .container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+      img {
+    margin-right: 30px #333; /* Adds a 3px solid border around the image */
+    border-radius: 8px; /* Optional: Rounds the corners */
+  }
+  }
+
+  
+
+  .form-section {
+    padding: 20px;
+    width: 60%;
+  }
+
+  .form-section h2 {
+    margin-top: 0;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+    height: 100px;
+  }
+
+  .submit-button {
+    background-color: #f0ad4e;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .submit-button:hover {
+    background-color: #ec971f;
+  }
+
+  .image-section {
+    background-color: #5a3d2f;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image-section img {
+    width: 50vw;
+    height: 20vh;
+
+    height: auto;
+  }
+
+
+
+
+/*this is for reservations tab*/
+
+  .image-container {
+  position: relative;  /* Allows the text overlay to be positioned absolutely */
+  width: 100%;  /* Set the width of the container */
+  height: 100%;  /* Set the height of the container */
+}
+
+/* Style for the image */
+.image-container img {
+  width: 100%;  /* Makes the image fill the container's width */
+  height: 100%; /* Makes the image fill the container's height */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  display: block;
+
+}
+
+
+
+/* Style for the image */
+.image-container img {
+  width: 100%;  /* Makes the image fill the container's width */
+  height: 100%; /* Makes the image fill the container's height */
+  object-fit: cover; /* Ensures the image covers the container without distortion */
+  display: block;
+
+}
+
+
+/* Style for the overlay text */
+.text-overlay {
+  position: absolute;  /* Positions the text absolutely within the container */
+  top: 50%;  /* Centers the text vertically */
+  left: 50%;  /* Centers the text horizontally */
+  transform: translate(-50%, -50%); /* Perfectly centers the text */
+  color: #FAB011;  /* Text color */
+  font-size: 270px;  /* Font size */
+  font-weight: bold;  /* Bold text */
+  font-family: balloon;
+text-shadow:     
+    -2px -2px 0 #FFE400, /* Top-left shadow */
+    2px -2px 0 #FFE400,  /* Top-right shadow */
+    -2px 2px 0 #FFE400,  /* Bottom-left shadow */
+    2px 2px 0 #FFE400;   /* Bottom-right shadow */;   background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent background */
+  padding: 10px;  /* Adds padding around the text */
+  border-radius: 5px; /* Optional: rounds the corners of the background */
+  text-align: center;
+}
+
+
+/* about page */
+
+.section {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.background {
+	  background-color: #623a23; /* Brown background */
+}
+
+.about-lindas {
+  background-color: #623a23; /* Brown background */
+  color: #fff; /* White text color */
+  padding: 100px;
+}
+
+.about-lindas .text-contentt {
+  flex: 1;
+  max-width: 100px;
+  font-family: balloon, sans-serif;
+
+}
+.about-lindas .text-content {
+  flex: 1;
+  max-width: 750px;
+  font-family: avenir, sans-serif;
+  text-align: left;
+
+}
+
+.about-lindas p {
+  line-height: 1.6;
+}
+
+/* Image Styling */
+.image-content {
+  flex: 1;
+  text-align: right;
+}
+
+.image-content img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Section 2: "ABOUT LINDA'S" Section */
+.about-section {
+  background-color: #ffffff; /* White background */
+  color: #333; /* Dark text color */
+  padding: 0px;
+  border-top: 5px solid #ffc107; /* Yellow top border */
+  text-align: center;
+}
+
+.about-section h3 {
+  font-size: 46px;
+  font-weight: bold;
+  color: #ffc107; /* Yellow color */
+  margin: 0 0 20px;
+}
+
+.about-section p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+@font-face {
+  font-family: 'balloon';
+  src: url('bl.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.image-containerm2 {
+  width: 100%; /* Set the desired width of the container */
+  height: 400px; /* Set the desired height of the container */
+  gap: 20px;
+  display: flex; /* Center the image inside */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  overflow: hidden; /* Hide parts of the image that overflow */
+  background-color: #623A23; /* Optional: Add a background color */
+}
+
+.image-containerm2 img {
+  max-width: 30%; /* Ensure the image fits within the container */
+  max-height: 90%; /* Ensure the image fits within the container */
+    object-fit: cover; /* Make the image cover the container */
+  border: 2px solid #ffc107; /* Add a yellow border to the image */
+  object-fit: cover; /* Make the image cover the container */
+}
+
+body {
+  font-family: 'balloon', sans-serif; /* Apply the font */
+}
