@@ -1,0 +1,336 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box ;
+}
+.background-image-container {
+	background-image:url(ghib.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000000;
+	text-align: center;
+	position: relative;
+	margin-bottom: 0px;
+
+}
+
+.background-image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+  pointer-events: none; /* Ensures the overlay doesn't block interactions with the image */
+  z-index: 1;
+}
+h1 {
+	  font-family: 'chango', sans-serif; /* Apply the font */
+    font-size: 300px;          
+    font-weight: bold;
+    font-family:chango;         
+    color: #ffffff;          
+    text-align: flex;       
+    margin: 0px 0;          
+    z-index: 2;
+ }
+h2 {
+	  font-family: 'chango', sans-serif; /* Apply the font */
+    font-size: 100px;          
+    font-weight: bold;
+    font-family:chango;         
+    color: #ffffff;          
+    text-align: flex;       
+    margin: 0px 0;          
+    z-index: 2;
+ }
+
+ h1, h2 {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+}
+ .text-overlay {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust the position to be exactly centered */
+  color: black; /* Text color */
+  text-align: center; /* Center text horizontally */
+  font-family: chango, sans-serif; /* Font family (optional) */
+}
+h3 {
+	color: white;
+	text-align:center; 
+	font-size: 80px;
+}
+h4 {
+	color: white;
+	text-align:center;
+	font-size: 55px;
+	margin-left: 200px;
+	margin-right: 200px; 
+	font-family: ariel, sans-serif;
+
+}
+
+/*------------------------- FRONT PAGE DONE ---------------------------*/
+
+
+
+.parallax {
+  /* The image used */
+  background-image: url("bh.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2{
+  /* The image used */
+  background-image: url("ew.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3{
+  /* The image used */
+  background-image: url("m.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4{
+  /* The image used */
+  background-image: url("k.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5{
+  /* The image used */
+  background-image: url("wr.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6{
+  /* The image used */
+  background-image: url("ph.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7{
+  /* The image used */
+  background-image: url("a.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax8{
+  /* The image used */
+  background-image: url("p.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax9{
+  /* The image used */
+  background-image: url("es.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax10{
+  /* The image used */
+  background-image: url("h.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax11{
+  /* The image used */
+  background-image: url("cr.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax12{
+  /* The image used */
+  background-image: url("s.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax13{
+  /* The image used */
+  background-image: url("y.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax14{
+  /* The image used */
+  background-image: url("pm.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax15{
+  /* The image used */
+  background-image: url("wh.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax16{
+  /* The image used */
+  background-image: url("pp.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax17{
+  /* The image used */
+  background-image: url("ow.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax18{
+  /* The image used */
+  background-image: url("pr.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax19{
+  /* The image used */
+  background-image: url("oy.png");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax20{
+  /* The image used */
+  background-image: url("ki.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax21{
+  /* The image used */
+  background-image: url("t.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax22{
+  /* The image used */
+  background-image: url("g.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax23{
+  /* The image used */
+  background-image: url("cs.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax24{
+  /* The image used */
+  background-image: url("n.gif");
+    min-height: 1000px; 
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.custom-link {
+  color: #9EDCDC; /* Default text color */
+  text-decoration: none; /* Removes underline */
+}
+
+/* Change the highlight color when hovered */
+.custom-link:hover {
+  color: white; /* Text color on hover */
+  background-color: none; /* Highlight background */
+}
+
+/* Change the highlight color when clicked or focused */
+.custom-link:active {
+  color: white; /* Text color on click */
+  background-color: lightgray; /* Optional background color */
+}
+
+/* Optional: Change the color when focused (e.g., via keyboard navigation) */
+.custom-link:focus {
+  outline: none; /* Removes focus outline (optional) */
+  color: white;
+  background-color: white;
+}
+@font-face {
+  font-family: 'chango';
+  src: url('chango.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'chango', sans-serif; /* Apply the font */
+}
