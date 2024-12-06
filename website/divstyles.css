@@ -1,0 +1,163 @@
+*{
+	margin-top: 40px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+.content {
+	width: 100vw;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 50px;
+	margin-bottom: 60px;
+
+}
+
+/*image styling*/
+.image img{
+	width: 400px;
+	height: auto;
+	border-radius: 20px;
+
+}
+
+/*text module*/
+.text-module {
+	max-width: 400px;
+	text-align: left;
+}
+
+.text-module h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.text-module p {
+	font-size: 16px;
+	line-height: 1.5
+}
+
+body {
+
+  font-family: 'oswald', sans-serif; /* Apply the font */
+	background: linear-gradient(to bottom, #CCDBDC 50%,#80C1E2 70%, #3F5E5A 100%);
+	padding: 20px;
+	font-family: oswald;
+}
+h1{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 100px;
+	text-align: center;
+}
+
+.custom-link {
+  color: #741415; /* Default text color */
+  text-decoration: none; /* Removes underline */
+    font-size: 70px;
+}
+
+/* Change the highlight color when hovered */
+.custom-link:hover {
+  color: white; /* Text color on hover */
+  background-color: black; /* Highlight background */
+}
+
+/* Change the highlight color when clicked or focused */
+.custom-link:active {
+  color: white; /* Text color on click */
+  background-color: lightgray; /* Optional background color */
+}
+
+/* Optional: Change the color when focused (e.g., via keyboard navigation) */
+.custom-link:focus {
+  outline: none; /* Removes focus outline (optional) */
+  color: white;
+  background-color: white;
+}
+
+
+.custom-link2 {
+  color: #262c22; /* Default text color */
+  text-decoration: none; /* Removes underline */
+    font-size: 70px;
+}
+
+/* Change the highlight color when hovered */
+.custom-link2:hover {
+  color: #3dbe12; /* Text color on hover */
+  background-color: #262c22; /* Highlight background */
+}
+
+/* Change the highlight color when clicked or focused */
+.custom-link2:active {
+  color: white; /* Text color on click */
+  background-color: lightgray; /* Optional background color */
+}
+
+/* Optional: Change the color when focused (e.g., via keyboard navigation) */
+.custom-link2:focus {
+  outline: none; /* Removes focus outline (optional) */
+  color: white;
+  background-color: white;
+}
+
+
+.custom-link3 {
+  color: #623a23; /* Default text color */
+  text-decoration: none; /* Removes underline */
+  font-size: 70px;
+}
+
+/* Change the highlight color when hovered */
+.custom-link3:hover {
+  color: #ffe400; /* Text color on hover */
+  background-color: #623a23; /* Highlight background */
+}
+
+/* Change the highlight color when clicked or focused */
+.custom-link3:active {
+  color: white; /* Text color on click */
+  background-color: lightgray; /* Optional background color */
+}
+
+/* Optional: Change the color when focused (e.g., via keyboard navigation) */
+.custom-link3:focus {
+  outline: none; /* Removes focus outline (optional) */
+  color: white;
+  background-color: white;
+}
+
+.custom-link4 {
+  color: #3F5E5A; /* Default text color */
+  text-decoration: none; /* Removes underline */
+    font-size: 70px;
+}
+
+/* Change the highlight color when hovered */
+.custom-link4:hover {
+  color: #6A9892; /* Text color on hover */
+  background-color: #3F5E5A; /* Highlight background */
+}
+
+/* Change the highlight color when clicked or focused */
+.custom-link4:active {
+  color: white; /* Text color on click */
+  background-color: lightgray; /* Optional background color */
+}
+
+/* Optional: Change the color when focused (e.g., via keyboard navigation) */
+.custom-link4:focus {
+  outline: none; /* Removes focus outline (optional) */
+  color: white;
+  background-color: white;
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('oswald.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
